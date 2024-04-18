@@ -20,11 +20,6 @@
  */
 
 function evenOccurrence(arr) {
-  // Write your code here
-  // if no even-occurrence items
-  // return null
-
-  // return first even-occurrence item in arr
   const numbers = {}
   for (let i = 0; i < arr.length; i++) {
     if (numbers[arr[i]] !== undefined) {
